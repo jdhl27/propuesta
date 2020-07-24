@@ -1,0 +1,129 @@
+/* 
+    Realizado por Juan David Hernandez Lopez. @jdhl27
+*/
+
+@font-face{
+  font-family: Isotonic;
+  src: url("./fonts/Isotonic.woff2");
+}
+
+@media all and (max-width: 1150px) and (min-width: 10px){
+
+  .message-error{
+    display: block !important;
+  }
+
+  .container-main{
+    display: none;
+  }
+
+}
+
+.message-error{
+  display: none;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Isotonic;
+  background-color: #2a3b47;
+  color:white;
+}
+
+
+.container-main{
+  width: 40%;
+  height: 23em;
+  margin: 0 auto;
+  background-color: #22303a;
+  border: 1px solid #2a3b47;
+  border-radius: 14px;
+  box-shadow: 0 0 11px -4px #0b2435;
+  margin-top: 15vh;
+  align-items: center;
+  color: honeydew;
+}
+
+.question{
+  font-weight: inherit;
+  width: 77%;
+  margin: 0 auto;
+  margin-top: 15vh;
+}
+
+.container-botons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7vh;
+}
+
+.boton{
+  padding: 18px 45px;
+  border-bottom: 4px solid #3a6b04;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  display: inline-table;
+  background-color: #58a700;
+  cursor: pointer;
+  transition: border 0.2s;
+  margin-right: 23vh;
+  z-index: 10;
+}
+
+.boton:hover{
+  border: 0;
+  cursor: pointer;
+}
+
+.boton-negative{
+  background-color: #da2f2f;
+  border-color: #771919;
+  transition: display 3s;
+  position: absolute;
+  left: 52vw;
+  transition: all 0.2s;
+}
+
+.boton-negative:hover{
+    cursor: none;
+    border-bottom: 4px solid #771919;
+}
+
+.rocket{
+  position: absolute;
+  top: 67vh;
+  transform: scale(1.03);
+  transition: all 2s;
+}
+
+.moon{
+  position: absolute;
+  width: 157px;
+  top: 66px;
+  left: 78vw;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  height: 9vh;
+  width: 100%;
+  background-color: #22303a;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.autor{
+  text-decoration: none;
+  color: orange;
+}
+
+.swal-button {
+  display: none;
+}
+
