@@ -17,6 +17,14 @@
     display: none;
   }
 
+  .swal-modal{
+    display: none;
+  }
+
+  .swal-overlay--show-modal{
+    opacity: 0;
+  }
+
 }
 
 .message-error{
