@@ -60,6 +60,16 @@ body{
   margin-top: 15vh;
 }
 
+.return{
+  width: 40px;
+  cursor: pointer;
+}
+
+.send{
+  width: 35px;
+  cursor: pointer;
+}
+
 .container-botons{
   display: flex;
   align-items: center;

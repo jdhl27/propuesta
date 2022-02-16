@@ -10,7 +10,12 @@
 <body>
   <h2 class=" message-error question">¡Uy! Este sitio solo está disponible desde una computadora... <a class="autor" href="https://instagram.com/jdhl27" target="_blank">@jdhl27</a></h2>
   <div class="container-main">
+    <div style="position: absolute; right: 30%; padding: 10px;">
+      <img title="Cambiar pregunta" onclick="mostrarModal()" class="return" src="./images/return.png" alt="Cambiar Pregunta">
+      <img title="Compartir" onclick="copyTextToClipboard()" class="send" src="./images/send.png" alt="Enviar">
+    </div>
     <h2 id="question_html" class="question">...</h2>
+    <!-- <button onclick="mostrarModal()">Delete</button> -->
     <div class="container-botons">
       <span class="boton" onClick="aceptar()">Sí</span>
       <span id="boton" class="boton boton-negative">No</span>
