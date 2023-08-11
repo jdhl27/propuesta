@@ -77,25 +77,26 @@ body{
   margin-top: 7vh;
 }
 
-.boton{
-  padding: 18px 45px;
-  border-bottom: 4px solid #3a6b04;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
-  text-decoration: none;
-  color: white;
-  border-radius: 4px;
-  display: inline-table;
-  background-color: #58a700;
-  cursor: pointer;
-  transition: border 0.2s;
-  margin-right: 23vh;
-  z-index: 10;
+.boton {
+    padding: 18px 45px;
+    border-bottom: 4px solid #3a6b04;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    display: inline-table;
+    background-color: #58a700;
+    cursor: pointer;
+    transition: transform 0.2s, border 0.2s;
+    margin-right: 23vh;
+    z-index: 10;
 }
 
-.boton:hover{
-  border: 0;
-  cursor: pointer;
+.boton:hover {
+    border-bottom-width: 0; 
+    transform: translateY(2px); 
 }
+
 
 .boton-negative{
   background-color: #da2f2f;
@@ -104,6 +105,7 @@ body{
   position: absolute;
   left: 52vw;
   transition: all 0.2s;
+   cursor: default;
 }
 
 .boton-negative:hover{
