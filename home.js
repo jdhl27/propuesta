@@ -101,6 +101,7 @@ function aceptar() {
   setTimeout(function () {
     rocket.style.top = "67vh";
     rocket.style.left = "65vh";
+    swal.close();
   }, 6000);
 }
 
