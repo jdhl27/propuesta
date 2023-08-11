@@ -33,6 +33,7 @@ window.onload=function()
 function mostrarModal(){
   swal("Ingrese la pregunta", {
     content: "input",
+    closeOnClickOutside: false
   })
   .then((value) => {
     if (value) {
