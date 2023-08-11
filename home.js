@@ -77,7 +77,7 @@ function aceptar() {
   setTimeout(function(){ 
     rocket.style.top = "67vh";
     rocket.style.left = "65vh";
-    boton.style.top = "41vh";
+    boton.style.top = "auto";
     boton.style.left = "52vw";
   }, 6000);
 }
